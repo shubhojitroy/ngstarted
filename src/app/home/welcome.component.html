@@ -1,0 +1,65 @@
+<div class="card">
+  <div class="display-image"></div>
+
+  <div class="card-header">
+    <h1>{{ pageTitle }}</h1>
+  </div>
+  <div class="card-body">
+    <div class="container-fluid">
+      <div class="card-text">
+        <h2>Angular overview</h2>
+        <p>
+          Angular is a platform and framework for building client applications in HTML and TypeScript. Angular is
+          written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you
+          import into your apps.<br><br>
+
+          The basic building blocks of an Angular application are <em>NgModules,</em> which provide a compilation
+          context for
+          components. NgModules collect related code into functional sets; an Angular app is defined by a set of
+          <em>NgModules</em>. An app always has at least a <em>root module</em> that enables bootstrapping, and
+          typically has
+          many more
+          <em>feature modules</em>.
+        </p>
+        <ul>
+          <li>
+            Components define <em>views,</em> which are sets of screen elements that Angular can choose among and modify
+            according
+            to your program logic and data.
+          </li>
+          <li>
+            Components use <em>services</em>, which provide specific functionality not directly related to views.
+            Service
+            providers
+            can be <em>injected</em> into components as <em>dependencies</em>, making your code modular, reusable, and
+            efficient.
+          </li>
+        </ul>
+        <p>
+          Both components and services are simply classes, with <em>decorators</em> that mark their type and provide
+          metadata
+          that tells Angular how to use them.
+        </p>
+        <ul>
+          <li>
+            The metadata for a component class associates it with a <em>template</em> that defines a view. A template
+            combines
+            ordinary HTML with Angular <em>directives</em> and <em>binding markup</em> that allow Angular to modify the
+            HTML
+            before
+            rendering it for display.
+          </li>
+          <li>
+            The metadata for a service class provides the information Angular needs to make it available to components
+            through <em>dependency injection (DI)</em>.
+          </li>
+        </ul>
+        <p>
+          An app's components typically define many views, arranged hierarchically. Angular provides the Router service
+          to help you define navigation paths among views. The router provides sophisticated in-browser navigational
+          capabilities.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
